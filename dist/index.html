@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavana Mergu - Software Engineer</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-DGbYkVSO.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white dark:bg-gray-800 shadow-md z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="#" class="text-2xl font-bold text-gray-800 dark:text-white">BM</a>
+                <div class="flex items-center space-x-4">
+                    <button id="theme-toggle" class="p-2 rounded-lg bg-gray-100 dark:bg-gray-700">
+                        <i class="fas fa-sun text-yellow-500 dark:hidden"></i>
+                        <i class="fas fa-moon text-blue-300 hidden dark:block"></i>
+                    </button>
+                    <div class="hidden md:flex space-x-8">
+                        <a href="#home" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">Home</a>
+                        <a href="#about" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">About</a>
+                        <a href="#education" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">Education</a>
+                        <a href="#experience" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">Experience</a>
+                        <a href="#skills" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">Skills</a>
+                        <a href="#contact" class="text-gray-700 dark:text-gray-300 hover:text-blue-600">Contact</a>
+                    </div>
+                </div>
+                <button class="md:hidden" id="menu-button">
+                    <svg class="w-6 h-6 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-4 py-3 space-y-2 bg-white dark:bg-gray-800">
+                <a href="#home" class="block text-gray-700 dark:text-gray-300 hover:text-blue-600">Home</a>
+                <a href="#about" class="block text-gray-700 dark:text-gray-300 hover:text-blue-600">About</a>
+                <a href="#education" class="block text-gray-700 dark:text-gray-300 hover:text-blue-600">Education</a>
+                <a href="#experience" class="block text-gray-700 dark:text-gray-300 hover:text-blue-600">Experience</a>
+                <a href="#skills" class="block text-gray-700 dark:text-gray-300 hover:text-blue-600">Skills</a>
+                <a href="#contact" class="block text-gray-700 dark:text-gray-300 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 min-h-screen flex items-center bg-gradient-to-br from-blue-50 to-white dark:from-gray-800 dark:to-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2" data-aos="fade-right">
+                    <h1 class="text-4xl md:text-6xl font-bold text-gray-800 dark:text-white mb-4">
+                        Hi, I'm Bhavana Mergu
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
+                        Associate Software Engineer at Accenture
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.linkedin.com/in/bhavana-mergu/" target="_blank" 
+                           class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                            Connect on LinkedIn
+                        </a>
+                        <a href="https://github.com/bhavanamergu" target="_blank"
+                           class="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition duration-300">
+                            View GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 mt-12 md:mt-0" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600" 
+                         alt="Developer" class="rounded-lg shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 dark:text-white mb-12" data-aos="fade-up">
+                About Me
+            </h2>
+            <div class="max-w-3xl mx-auto text-gray-600 dark:text-gray-300 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                <p class="mb-6">
+                    I am a passionate software engineer with expertise in both backend and frontend development. My strong foundation 
+                    in computer science fundamentals, combined with hands-on experience in modern technologies, enables me to deliver 
+                    efficient and scalable solutions.
+                </p>
+                <p>
+                    With a focus on Java, Spring Framework, and web technologies, I enjoy tackling complex problems and creating 
+                    user-friendly applications. I'm constantly learning and staying updated with the latest industry trends and best practices.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-gray-50 dark:bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 dark:text-white mb-12" data-aos="fade-up">
+                Education
+            </h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6" data-aos="fade-up">
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white">B.Tech in Computer Science and Engineering</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Jawaharlal Technological University, Hyderabad | 2019 - 2023</p>
+                    
+                    <div class="mt-6">
+                        <h4 class="text-lg font-semibold text-gray-700 dark:text-gray-200 mb-3">Key Coursework:</h4>
+                        <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-600 dark:text-gray-300">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Data Structures
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Algorithms
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Database Management Systems
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Operating Systems
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                Java Programming
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 dark:text-white mb-12" data-aos="fade-up">
+                Professional Experience
+            </h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gray-50 dark:bg-gray-700 rounded-lg shadow-lg p-6 mb-6" data-aos="fade-up">
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white">Associate Software Engineer</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Accenture | September 2024 - Present</p>
+                    <ul class="mt-4 list-disc list-inside text-gray-600 dark:text-gray-300">
+                        <li>Working with Spring Framework and Java</li>
+                        <li>Developing and maintaining enterprise applications</li>
+                        <li>Database management using SQL</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 dark:bg-gray-700 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white">Software Development Intern</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Cloud Odyssey | February 2024 - August 2024</p>
+                    <ul class="mt-4 list-disc list-inside text-gray-600 dark:text-gray-300">
+                        <li>Gained hands-on experience with Java development</li>
+                        <li>Participated in agile development processes</li>
+                        <li>Collaborated with senior developers on various projects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50 dark:bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 dark:text-white mb-12" data-aos="fade-up">
+                Technical Skills
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+                <!-- Backend -->
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center" data-aos="fade-up">
+                    <i class="fab fa-java text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white">Java</h3>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center" data-aos="fade-up">
+                    <i class="fas fa-leaf text-4xl text-green-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white">Spring</h3>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center" data-aos="fade-up">
+                    <i class="fas fa-database text-4xl text-purple-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white">SQL</h3>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center" data-aos="fade-up">
+                    <i class="fas fa-code text-4xl text-indigo-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white">Data Structures</h3>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center" data-aos="fade-up">
+                    <i class="fas fa-sitemap text-4xl text-red-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white">Algorithms</h3>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center" data-aos="fade-up">
+                    <i class="fab fa-js text-4xl text-yellow-400 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white">JavaScript</h3>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg p-6 text-center" data-aos="fade-up">
+                    <i class="fab fa-react text-4xl text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white">React</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 dark:text-white mb-12" data-aos="fade-up">
+                Get In Touch
+            </h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 dark:bg-gray-700 rounded-lg shadow-lg p-6" data-aos="fade-right">
+                    <h3 class="text-xl font-bold text-gray-800 dark:text-white mb-4">Contact Information</h3>
+                    <div class="space-y-4">
+                        <p class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-envelope w-6"></i>
+                            <a href="mailto:bhavanamergu05@gmail.com" class="ml-2 hover:text-blue-600">
+                                bhavanamergu05@gmail.com
+                            </a>
+                        </p>
+                        <p class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-phone w-6"></i>
+                            <a href="tel:+918639629935" class="ml-2 hover:text-blue-600">
+                                +91 8639629935
+                            </a>
+                        </p>
+                        <p class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fab fa-linkedin w-6"></i>
+                            <a href="https://www.linkedin.com/in/bhavana-mergu/" target="_blank" class="ml-2 hover:text-blue-600">
+                                LinkedIn Profile
+                            </a>
+                        </p>
+                        <p class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fab fa-github w-6"></i>
+                            <a href="https://github.com/bhavanamergu" target="_blank" class="ml-2 hover:text-blue-600">
+                                GitHub Profile
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 dark:bg-gray-700 rounded-lg shadow-lg p-6" data-aos="fade-left">
+                    <form id="contact-form" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-gray-700 dark:text-gray-200 mb-2">Name</label>
+                            <input type="text" id="name" name="name" required
+                                   class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500 dark:bg-gray-800 dark:text-white dark:border-gray-600">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 dark:text-gray-200 mb-2">Email</label>
+                            <input type="email" id="email" name="email" required
+                                   class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500 dark:bg-gray-800 dark:text-white dark:border-gray-600">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 dark:text-gray-200 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" required
+                                      class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500 dark:bg-gray-800 dark:text-white dark:border-gray-600"></textarea>
+                        </div>
+                        <button type="submit" 
+                                class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 dark:bg-gray-900">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Bhavana Mergu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
